@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Math Quiz</string>
+    <!--Buttons-->
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Następny</string>
+    <!--Questions-->
+    <string name="dwusieczna">Dwusieczna kąta dzieli go na pół</string>
+    <string name="czworokat">W czworokącie suma kątów wewnętrznych wynosi 180 stopni</string>
+    <string name="trojkat_rownoboczny">W trojkącie równobocznym każdy z kątów ma tę samą miarę</string>
+    <string name="prostokat">KAŻDY prostokąt jest kwadratem</string>
+    <string name="liczba_pi">Pi w przybliżeniu wynosi 4.13</string>
+    <!--Messages-->
+    <string name="correct_answer">Poprawna odpowiedź</string>
+    <string name="incorrect_answer">Niepoprawna odpowiedź</string>
+</resources>
