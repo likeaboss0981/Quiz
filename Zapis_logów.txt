@@ -1,0 +1,69 @@
+6.
+Po pierwszym uruchomieniu aplikacji: 
+	-Wywołana została matoda życia :onCreate
+	-Wywołana została matoda życia :onStart
+	-Wywołana została matoda życia :onResume
+
+Po wciśnięciu przycisku Cofnij
+	-Wywołana została matoda życia :onPause
+	-Wywołana została matoda życia :onStop
+	-Wywołana została matoda życia :onDestroy
+
+Po ponownym uruchomieniu aplikacji
+	-Wywołana została matoda życia :onCreate
+	-Wywołana została matoda życia :onStart
+	-Wywołana została matoda życia :onResume
+
+Po wciśnięciu przycisku ekranu głównego Home
+	-Wywołana została matoda życia :onPause
+	-Wywołana została matoda życia :onStop
+
+Po powrocie do aplikacji z listy ostatnio używanych aplikacji
+	-Wywołana została matoda życia :onStart
+	-Wywołana została matoda życia :onResume
+
+9.
+Przy obracaniu ekranu:
+	-Wywołana została matoda życia :onPause
+	-Wywołana została matoda życia :onStop
+	-Wywołana została matoda życia :onDestroy
+	-Wywołana została matoda życia :onCreate
+	-Wywołana została matoda życia :onStart
+	-Wywołana została matoda życia :onResume
+
+10.
+Co się stało po obróceniu ekranu? 
+	-Aplikacja jest niszczona i uruchamiana na nowo
+Które pytanie się wyświetla? 
+	-Wyświetla się zawsze pierwsze pytanie
+
+13.
+Wyświetlone logi:
+	-Wywołana została matoda życia :onCreate
+	-Wywołana została matoda życia :onStart
+	-Wywołana została matoda życia :onResume
+	-Wywołana została matoda życia :onPause
+	-Wywołana została matoda życia :onStop
+	-Wywołana została metoda: onSaveInstanceState
+	-Wywołana została matoda życia :onDestroy
+	-Wywołana została matoda życia :onCreate
+	-Wywołana została matoda życia :onStart
+	-Wywołana została matoda życia :onResume
+
+Które pytanie wyświetli się tym razem? 
+	-Tym razem wyświetliło się te same pytanie, które było wyświetlone przed rotacją
+
+15.
+Sprawdź zawartość pliku AndroidManifest.xml. Czy pojawił się tam wpis dotyczący nowej
+aktywności?
+Tak , pojawił się wpis dotyczący nowej aktywności:
+<activity
+        android:name=".PromptActivity"
+        android:exported="false">
+        <meta-data
+            android:name="android.app.lib_name"
+            android:value="" />
+</activity>
+
+
+	
